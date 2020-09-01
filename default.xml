@@ -1,8 +1,6 @@
-
-<!-- 
-repo init -u git@github.com:971586331/test_manifest.git -m default.xml 
-repo sync
--->
+ 
+<!-- repo init -u git@github.com:971586331/test_manifest.git -m default.xml -->
+<!-- repo sync -->
 
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
