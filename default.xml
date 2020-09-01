@@ -1,8 +1,4 @@
- 
-<!-- repo init -u git@github.com:971586331/test_manifest.git -m default.xml -->
-<!-- repo sync -->
-
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github" fetch="ssh://git@github.com" revision="master" />
   <remote  name="gitee" fetch="ssh://git@gitee.com" revision="master" />
