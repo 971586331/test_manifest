@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github" fetch="ssh://git@github.com:971586331/" revision="master" />
-  <remote  name="gitee" fetch="ssh://git@gitee.com:shiyu1024/" revision="master" />
+  <remote  name="github" fetch="ssh://git@github.com" revision="master" />
+  <remote  name="gitee" fetch="ssh://git@gitee.com" revision="master" />
 
   <default remote="gitee" revision="master" sync-j="4" />
 
-  <project name="mcu_framework.git" path="mcu_framework_1" remote="github" revision="master"/>
-  <project name="mqtt_message_generator.git" path="mqtt_message_generator_1" remote="github" revision="master"/>
-  <project name="u-boot-2014.10.git" path="u-boot-2014.10_1" remote="gitee" revision="master"/>
+  <project name="971586331/mcu_framework.git" path="mcu_framework_1" remote="github" revision="master"/>
+  <project name="971586331/mqtt_message_generator.git" path="mqtt_message_generator_1" remote="github" revision="master"/>
+  <project name="shiyu1024/u-boot-2014.10.git" path="u-boot-2014.10_1" remote="gitee" revision="master"/>
 </manifest>
