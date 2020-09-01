@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github" fetch="git@github.com:971586331/" revision="master" />
-  <remote  name="gitee" fetch="git@gitee.com:shiyu1024/" revision="master" />
+  <remote  name="github" fetch="ssh://git@github.com:971586331/" revision="master" />
+  <remote  name="gitee" fetch="ssh://git@gitee.com:shiyu1024/" revision="master" />
 
   <default remote="gitee" revision="master" sync-j="4" />
 
