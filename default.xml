@@ -1,3 +1,9 @@
+
+<!-- 
+repo init -u git@github.com:971586331/test_manifest.git -m default.xml 
+repo sync
+-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github" fetch="ssh://git@github.com" revision="master" />
@@ -5,10 +11,10 @@
 
   <default remote="gitee" revision="master" sync-j="4" />
 
-  <project name="971586331/mcu_framework.git" path="mcu_framework_1" remote="github" revision="master">
-  <copyfile dest="build_1.sh" src="build.sh"/>
+  <project name="971586331/sqlite_study.git" path="sqlite_study_1" remote="github" revision="master">
+  <copyfile dest="Makefile_1" src="Makefile"/>
   </project>
 
   <project name="971586331/mqtt_message_generator.git" path="mqtt_message_generator_1" remote="github" revision="master"/>
-  <project name="shiyu1024/fatfs_study.git" path="fatfs_study_1" remote="gitee" revision="master"/>
+  <project name="shiyu1024/cjson_study.git" path="cjson_study_1" remote="gitee" revision="master"/>
 </manifest>
