@@ -6,8 +6,6 @@
   <default remote="gitee" revision="master" sync-j="4" />
 
   <project name="mcu_framework" path="mcu_framework_1" remote="github" revision="master"/>
-    <copyfile dest="build_1.sh" src="build.sh"/>
-  </project>
   <project name="mqtt_message_generator" path="mqtt_message_generator_1" remote="github" revision="master"/>
   <project name="u-boot-2014.10" path="u-boot-2014.10_1" remote="gitee" revision="master"/>
 </manifest>
